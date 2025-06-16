@@ -1,0 +1,13 @@
+# Ignore MLflow tracking folders
+Membangun_model/mlruns/
+Membangun_model/mlartifacts/
+
+# Ignore saved models (optional)
+Membangun_model/saved_models/
+
+# Python cache & environments
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.env/
+.venv/
