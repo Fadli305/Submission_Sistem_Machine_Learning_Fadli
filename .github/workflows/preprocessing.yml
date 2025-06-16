@@ -5,7 +5,7 @@ on:
     paths:
       - 'dataset/personality_dataset.csv'
       - 'preprocessing/automate_Fadli.py'
-
+  workflow_dispatch:
 jobs:
   preprocess:
     runs-on: ubuntu-latest
